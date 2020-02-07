@@ -1,2 +1,8 @@
-<h1>Songs#new</h1>
-<p>Find me in app/views/songs/new.html.erb</p>
+<h1>Song Form</h1>
+
+<%= form_for @song do |f| %>
+  <%= f.label :name %><br>
+  <%= f.text_field :name %><br>
+ 
+  <%= f.submit %>
+<% end %>
