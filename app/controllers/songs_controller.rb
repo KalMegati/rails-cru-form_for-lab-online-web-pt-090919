@@ -24,7 +24,6 @@ class SongsController < ApplicationController
   end
 
   def show
-    byebug
     @song = song_find
   end
   
